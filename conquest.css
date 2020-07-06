@@ -61,6 +61,7 @@ footer {
 .logo-text {
     font-family: 'Playfair Display', serif;
     font-size: 12px;
+    text-decoration: none;
     text-transform: uppercase;
     line-height: auto;
     color: #555248;
@@ -86,6 +87,10 @@ footer {
     font-weight: normal;
     color: #555248;
     text-decoration: none;
+}
+
+.item-link-visit {
+    color: #A69876;
 }
 
 .user-icons {
@@ -279,7 +284,7 @@ footer {
     font-size: 14px;
     font-weight: bolder;
     line-height: 173.3%;
-    letter-spacing: 3%;
+    letter-spacing: 3%; /* %? or px */
     color: #1B1A17;
     opacity: 82%;
     margin: 40px auto 10px 40px;
